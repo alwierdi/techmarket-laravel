@@ -36,36 +36,4 @@ class registerController extends Controller
         curl_close($curl);
         echo $response;
     }
-
-    // public function showRegistrationForm()
-    // {
-    //     // Kembalikan tampilan formulir registrasi
-    //     return view('auth.register');
-    // }
-
-    // public function register(Request $request)
-    // {
-    //     // Validasi input pengguna
-    //     $validatedData = $request->validate([
-    //         'username' => 'required|string|max:255',
-    //         'email' => 'required|string|email|max:255|unique:users',
-    //         'password' => 'required|string|min:8|confirmed',
-    //     ]);
-
-    //     // Buat permintaan POST ke backend Spring Boot untuk mendaftarkan pengguna
-    //     $response = Http::POST('https://2e8b-180-243-252-249.ngrok-free.app', [
-    //         'username' => $validatedData['username'],
-    //         'email' => $validatedData['email'],
-    //         'password' => $validatedData['password'],
-    //     ]);
-
-    //     // Periksa respons dari backend
-    //     if ($response->successful()) {
-    //         // Registrasi berhasil, redirect ke halaman login
-    //         return redirect()->route('/login')->with('success', 'Registrasi berhasil. Silakan login.');
-    //     } else {
-    //         // Registrasi gagal, kembali ke formulir registrasi dengan pesan error
-    //         return back()->withErrors($response->json());
-    //     }
-    // }
 }
