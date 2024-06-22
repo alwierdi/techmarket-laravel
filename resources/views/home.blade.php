@@ -56,7 +56,7 @@
     <div class="category-container">
         <p>Last Change to Shop!</p>
         <ul class="nav nav-pills">
-            <li class="nav-item category nav-link" data-category="All">All</li>
+            <li class="nav-item category nav-link" data-category="All">Hot Promo 🔥</li>
             <li class="nav-item category nav-link" data-category="Headset">Headset</li>
             <li class="nav-item category nav-link" data-category="Mouse">Mouse</li>
             <li class="nav-item category nav-link" data-category="Keyboard">Keyboard</li>
@@ -72,63 +72,49 @@
     <div class="product-container">
         <div class="card-product">
             <div class="img-product" onclick="openProduct()">
-                <img src="img/DXRacer-DRIFTING-SERIES.png" alt="">
+                <img src="img/DXRacer-DRIFTING-SERIES.png" alt="DX Racer Drifting Series">
             </div>
-            <p>Nama Product</p>
+            <p>DX Racer Drifting Series</p>
             <p>Rp2.700.000</p>
         </div>
 
         <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
+            <div class="img-product">
+                <img src="img/msi_g244f.jpeg" alt="MSI G244F">
+            </div>
+            <p>MSI G244F</p>
             <p>Rp2.700.000</p>
         </div>
 
         <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
+            <div class="img-product">
+                <img src="img/ajazz_ak820.jpeg" alt="Ajazz AK820 Pro">
+            </div>
+            <p>Ajazz AK820 Pro</p>
             <p>Rp2.700.000</p>
         </div>
 
         <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
+            <div class="img-product">
+                <img src="img/ZOWIE-XL2566K-1-600x600.jpg" alt="Zowie XL2566K">
+            </div>
+            <p>Zowie XL2566K</p>
             <p>Rp2.700.000</p>
         </div>
 
         <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
+            <div class="img-product">
+                <img src="img/maxfit_81.jpeg" alt="Fantech Maxfit 81">
+            </div>
+            <p>Fantech Maxfit 81</p>
             <p>Rp2.700.000</p>
         </div>
 
         <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
-            <p>Rp2.700.000</p>
-        </div>
-
-        <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
-            <p>Rp2.700.000</p>
-        </div>
-
-        <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
-            <p>Rp2.700.000</p>
-        </div>
-
-        <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
-            <p>Rp2.700.000</p>
-        </div>
-
-        <div class="card-product">
-            <div class="img-product"></div>
-            <p>Nama Product</p>
+            <div class="img-product">
+                <img src="img/vxe_r1.jpeg" alt="VXE R1 Pro Max">
+            </div>
+            <p>VXE R1 Pro Max</p>
             <p>Rp2.700.000</p>
         </div>
     </div>
