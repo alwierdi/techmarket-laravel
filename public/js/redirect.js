@@ -128,17 +128,7 @@ categoryLinks.forEach((link) => {
 
 // Format IDR
 function number_format(number, decimals, dec_point, thousands_sep) {
-    // Convert the number to a string
-    number = number.toString();
-
-    // Split the number into integer and decimal parts
-    let parts = number.split(".");
-
-    // Format the integer part with thousand separators
-    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, thousands_sep);
-
-    // Combine the integer and decimal parts with the decimal separator
-    return parts.join(dec_point);
+    console.log("test")
 }
 
 // Card Product

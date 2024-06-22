@@ -17,7 +17,7 @@ class registerController extends Controller
         ];
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://2e8b-180-243-252-249.ngrok-free.app/user/signup',
+            CURLOPT_URL => 'https://c9cc-180-244-249-212.ngrok-free.app/user/signup',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -35,5 +35,6 @@ class registerController extends Controller
 
         curl_close($curl);
         echo $response;
+        return redirect()->intended('/login');
     }
 }
