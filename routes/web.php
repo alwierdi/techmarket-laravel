@@ -42,15 +42,17 @@ Route::get('/profile', function () {
         'posts' => [
             [
                 'id' => 1,
-                'title' => 'Request Barang Penjualan',
+                'title' => 'Request Add Product',
                 'author' => 'Alberto Oktavianus',
-                'body' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non doloremque nostrum ab odio id aliquid, accusamus harum quibusdam quae a officia in perspiciatis laudantium ratione alias at repellat vitae sapiente.',
+                'body' => 'AJAZZ AK820 PRO',
+                'img' => 'img/ajazz_ak820.jpeg',
             ],
             [
                 'id' => 2,
-                'title' => 'Request Barang Penjualan',
+                'title' => 'Request Add Product',
                 'author' => 'Devanda Matius',
-                'body' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non doloremque nostrum ab odio id aliquid, accusamus harum quibusdam quae a officia in perspiciatis laudantium ratione alias at repellat vitae sapiente.',
+                'body' => 'VXE R1 PRO MAX',
+                'img' => 'img/vxe_r1.jpeg',
             ],
         ],
     ]);
